@@ -9,3 +9,7 @@ mqtt\_daemon.py to move data from mqtt into the database
 plot.py to plot the various data pin therminal as TUI
 
 Among sensors is rpi zero with envirohate and script sensors/envirohat.py collectin data in cronjob
+
+## The plotter
+
+![plot](plot.png "plot")
