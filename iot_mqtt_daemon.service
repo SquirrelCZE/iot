@@ -1,0 +1,8 @@
+[Unit]
+Description=IoT MQTT Daemon
+
+[Service]
+ExecStart=/usr/bin/env python3 %h/iot/mqtt_daemon.py 
+
+[Install]
+WantedBy=default.target
